@@ -1,0 +1,34 @@
+@import "compass/css3";
+
+
+.logo{
+	background: url('../img/default.png') no-repeat top center;
+	display: inline-block;
+	width: 275px;
+	height: 210px;
+	margin: 40px auto 10px;
+}
+
+
+#box{
+	margin-top: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.button-group{
+	margin-top: 10px;
+
+	.btn{
+		background-color: #E9E9E9; 
+		border: 1px solid darken((#E9E9E9), 15%);
+		color: #000; 
+		font-size: 12px; 
+		padding: 7px 14px 8px;
+
+		&:hover{
+			background-color: #c2c2c2; 
+		}
+	}
+}
+

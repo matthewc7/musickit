@@ -1,0 +1,134 @@
+@import "responsive-utilities";
+
+@mixin mobileHeader{
+	header{
+		height: 160px;
+		text-align: center;
+
+		.brand{
+			padding-top: 8px;
+		}
+
+		.action{
+			padding-top: 10px;
+
+		}
+	}	
+}
+
+
+@mixin mobileChart{
+
+	#brand{
+		text-align: center;
+	}
+
+
+	footer{
+		text-align: center;
+
+		ul{
+			display: none;
+		}
+	}
+
+	.button-group .btn{
+		width: 100%;
+	}
+
+	#charts{
+		text-align: center;
+
+		.options{
+			padding-bottom: 15px;
+		}
+	}
+
+	#term{
+		width: 220px;
+	}
+	
+	#setting{
+		height: 190px;
+
+		p{
+			padding-bottom: 10px;
+		}
+
+		select.dropdown{
+			width: 240px;
+		}
+	}
+
+	#response{
+		margin-left: auto;
+		margin-right: auto;
+
+		ul.chart{
+			float: left;
+			padding: 10px 10px 0;
+
+			li{
+				float: none;
+				text-align: center;
+
+				p{
+					line-height: 15px;
+				}
+			}
+		
+			.label{
+				border: 1px solid rgba(0,0,0,.2);
+			}
+		}
+
+		ul.lists{ margin-top: -17px; }
+
+		#info{
+			text-align: center;
+		}
+
+	}
+
+}
+
+
+/** Responsive **/
+
+@media (max-width: 480px) {
+	@include mobileHeader;
+	@include mobileChart;
+	header select{ width: 280px; }	
+	#chart .thumbnail{ height: 100px; }
+
+	#response{ width: 320px; margin-top: 10px; }
+	#response ul.chart li{ width: 140px; max-height: 280px; height: 220px; overflow: auto;}
+	#response ul.chart li p small{ display: none; }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	@include mobileHeader;
+	@include mobileChart;
+
+	header select{ width: 280px; }
+	#response{ width: 480px; margin-top: 10px; }
+	#response ul.chart li{ width: 220px; height: 280px; }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#chart .thumbnail{ height: 140px; }
+}
+
+
+@media (min-width: 979px) {
+	#chart .thumbnail{ height: 170px; }
+}
+
+@media (min-width: 1200px) {
+	#chart .thumbnail{ height: 170px; }
+}
+
+
+

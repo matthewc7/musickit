@@ -1,0 +1,85 @@
+/* line 3, ../cssprocessor/locator.scss */
+#upc {
+  width: 320px;
+}
+
+/* line 8, ../cssprocessor/locator.scss */
+#results {
+  font-size: 13px;
+  color: #535353;
+  padding-top: 12px;
+  font-style: italic;
+}
+
+/* line 15, ../cssprocessor/locator.scss */
+#info {
+  margin-bottom: 40px;
+}
+/* line 18, ../cssprocessor/locator.scss */
+#info .upc {
+  font-size: 16px;
+  font-weight: bold;
+  color: #535353;
+}
+/* line 24, ../cssprocessor/locator.scss */
+#info .title {
+  color: #222;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  padding-top: 1px;
+}
+/* line 31, ../cssprocessor/locator.scss */
+#info .title small {
+  color: #535353;
+  font-size: 12px;
+  font-weight: normal;
+}
+/* line 38, ../cssprocessor/locator.scss */
+#info .artist {
+  color: #535353;
+  font-size: 13px;
+  padding-top: 3px;
+}
+
+/* line 47, ../cssprocessor/locator.scss */
+ul.lists li {
+  padding: 4px 6px;
+  border-bottom: 1px solid #dddddd;
+  font-size: 14px;
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+/* line 53, ../cssprocessor/locator.scss */
+ul.lists li img {
+  margin-right: 5px;
+}
+/* line 57, ../cssprocessor/locator.scss */
+ul.lists li p {
+  font-size: 12px;
+}
+/* line 61, ../cssprocessor/locator.scss */
+ul.lists li a {
+  color: #515151;
+}
+/* line 64, ../cssprocessor/locator.scss */
+ul.lists li a:hover {
+  color: #5068a4;
+  text-decoration: underline;
+}
+/* line 71, ../cssprocessor/locator.scss */
+ul.lists li.available {
+  background-color: #dff0d8;
+}
+/* line 75, ../cssprocessor/locator.scss */
+ul.lists li.unavailable {
+  background-color: #f2dede;
+}
+
+/* line 80, ../cssprocessor/locator.scss */
+.panel {
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}

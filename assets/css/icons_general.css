@@ -1,0 +1,216 @@
+/* font-face */
+@font-face {
+  font-family: "GeneralFoundicons";
+  src: url("../fonts/general_foundicons.eot");
+  src: url("../fonts/general_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/general_foundicons.woff") format("woff"), url("../fonts/general_foundicons.ttf") format("truetype"), url("../fonts/general_foundicons.svg#GeneralFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global gicon styles */
+[class*="gicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+[class*="gicon-"]:before {
+  font-family: "GeneralFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+.gicon-settings:before {
+  content: "\f000";
+}
+
+.gicon-heart:before {
+  content: "\f001";
+}
+
+.gicon-star:before {
+  content: "\f002";
+}
+
+.gicon-plus:before {
+  content: "\f003";
+}
+
+.gicon-minus:before {
+  content: "\f004";
+}
+
+.gicon-checkmark:before {
+  content: "\f005";
+}
+
+.gicon-remove:before {
+  content: "\f006";
+}
+
+.gicon-mail:before {
+  content: "\f007";
+}
+
+.gicon-calendar:before {
+  content: "\f008";
+}
+
+.gicon-page:before {
+  content: "\f009";
+}
+
+.gicon-tools:before {
+  content: "\f00a";
+}
+
+.gicon-globe:before {
+  content: "\f00b";
+}
+
+.gicon-home:before {
+  content: "\f00c";
+}
+
+.gicon-quote:before {
+  content: "\f00d";
+}
+
+.gicon-people:before {
+  content: "\f00e";
+}
+
+.gicon-monitor:before {
+  content: "\f00f";
+}
+
+.gicon-laptop:before {
+  content: "\f010";
+}
+
+.gicon-phone:before {
+  content: "\f011";
+}
+
+.gicon-cloud:before {
+  content: "\f012";
+}
+
+.gicon-error:before {
+  content: "\f013";
+}
+
+.gicon-right-arrow:before {
+  content: "\f014";
+}
+
+.gicon-left-arrow:before {
+  content: "\f015";
+}
+
+.gicon-up-arrow:before {
+  content: "\f016";
+}
+
+.gicon-down-arrow:before {
+  content: "\f017";
+}
+
+.gicon-trash:before {
+  content: "\f018";
+}
+
+.gicon-add-doc:before {
+  content: "\f019";
+}
+
+.gicon-edit:before {
+  content: "\f01a";
+}
+
+.gicon-lock:before {
+  content: "\f01b";
+}
+
+.gicon-unlock:before {
+  content: "\f01c";
+}
+
+.gicon-refresh:before {
+  content: "\f01d";
+}
+
+.gicon-paper-clip:before {
+  content: "\f01e";
+}
+
+.gicon-video:before {
+  content: "\f01f";
+}
+
+.gicon-photo:before {
+  content: "\f020";
+}
+
+.gicon-graph:before {
+  content: "\f021";
+}
+
+.gicon-idea:before {
+  content: "\f022";
+}
+
+.gicon-mic:before {
+  content: "\f023";
+}
+
+.gicon-cart:before {
+  content: "\f024";
+}
+
+.gicon-address-book:before {
+  content: "\f025";
+}
+
+.gicon-compass:before {
+  content: "\f026";
+}
+
+.gicon-flag:before {
+  content: "\f027";
+}
+
+.gicon-location:before {
+  content: "\f028";
+}
+
+.gicon-clock:before {
+  content: "\f029";
+}
+
+.gicon-folder:before {
+  content: "\f02a";
+}
+
+.gicon-inbox:before {
+  content: "\f02b";
+}
+
+.gicon-website:before {
+  content: "\f02c";
+}
+
+.gicon-smiley:before {
+  content: "\f02d";
+}
+
+.gicon-search:before {
+  content: "\f02e";
+}

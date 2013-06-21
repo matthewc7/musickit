@@ -1,0 +1,313 @@
+/* line 3, ../cssprocessor/_responsive-utilities.scss */
+.visible-phone {
+  display: none !important;
+}
+
+/* line 4, ../cssprocessor/_responsive-utilities.scss */
+.visible-tablet {
+  display: none !important;
+}
+
+/* line 7, ../cssprocessor/_responsive-utilities.scss */
+.hidden-desktop {
+  display: none !important;
+}
+
+/* line 8, ../cssprocessor/_responsive-utilities.scss */
+.visible-desktop {
+  display: inherit !important;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 13, ../cssprocessor/_responsive-utilities.scss */
+  .hidden-desktop {
+    display: inherit !important;
+  }
+
+  /* line 14, ../cssprocessor/_responsive-utilities.scss */
+  .visible-desktop {
+    display: none !important;
+  }
+
+  /* line 16, ../cssprocessor/_responsive-utilities.scss */
+  .visible-tablet {
+    display: inherit !important;
+  }
+
+  /* line 18, ../cssprocessor/_responsive-utilities.scss */
+  .hidden-tablet {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 24, ../cssprocessor/_responsive-utilities.scss */
+  .hidden-desktop {
+    display: inherit !important;
+  }
+
+  /* line 25, ../cssprocessor/_responsive-utilities.scss */
+  .visible-desktop {
+    display: none !important;
+  }
+
+  /* line 27, ../cssprocessor/_responsive-utilities.scss */
+  .visible-phone {
+    display: inherit !important;
+  }
+
+  /* line 29, ../cssprocessor/_responsive-utilities.scss */
+  .hidden-phone {
+    display: none !important;
+  }
+}
+/** Responsive **/
+@media (max-width: 480px) {
+  /* line 4, ../cssprocessor/responsive.scss */
+  header {
+    height: 160px;
+    text-align: center;
+  }
+  /* line 8, ../cssprocessor/responsive.scss */
+  header .brand {
+    padding-top: 8px;
+  }
+  /* line 12, ../cssprocessor/responsive.scss */
+  header .action {
+    padding-top: 10px;
+  }
+
+  /* line 22, ../cssprocessor/responsive.scss */
+  #brand {
+    text-align: center;
+  }
+
+  /* line 27, ../cssprocessor/responsive.scss */
+  footer {
+    text-align: center;
+  }
+  /* line 30, ../cssprocessor/responsive.scss */
+  footer ul {
+    display: none;
+  }
+
+  /* line 35, ../cssprocessor/responsive.scss */
+  .button-group .btn {
+    width: 100%;
+  }
+
+  /* line 39, ../cssprocessor/responsive.scss */
+  #charts {
+    text-align: center;
+  }
+  /* line 42, ../cssprocessor/responsive.scss */
+  #charts .options {
+    padding-bottom: 15px;
+  }
+
+  /* line 47, ../cssprocessor/responsive.scss */
+  #term {
+    width: 220px;
+  }
+
+  /* line 51, ../cssprocessor/responsive.scss */
+  #setting {
+    height: 190px;
+  }
+  /* line 54, ../cssprocessor/responsive.scss */
+  #setting p {
+    padding-bottom: 10px;
+  }
+  /* line 58, ../cssprocessor/responsive.scss */
+  #setting select.dropdown {
+    width: 240px;
+  }
+
+  /* line 63, ../cssprocessor/responsive.scss */
+  #response {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 67, ../cssprocessor/responsive.scss */
+  #response ul.chart {
+    float: left;
+    padding: 10px 10px 0;
+  }
+  /* line 71, ../cssprocessor/responsive.scss */
+  #response ul.chart li {
+    float: none;
+    text-align: center;
+  }
+  /* line 75, ../cssprocessor/responsive.scss */
+  #response ul.chart li p {
+    line-height: 15px;
+  }
+  /* line 80, ../cssprocessor/responsive.scss */
+  #response ul.chart .label {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  /* line 85, ../cssprocessor/responsive.scss */
+  #response ul.lists {
+    margin-top: -17px;
+  }
+  /* line 87, ../cssprocessor/responsive.scss */
+  #response #info {
+    text-align: center;
+  }
+
+  /* line 101, ../cssprocessor/responsive.scss */
+  header select {
+    width: 280px;
+  }
+
+  /* line 102, ../cssprocessor/responsive.scss */
+  #chart .thumbnail {
+    height: 100px;
+  }
+
+  /* line 104, ../cssprocessor/responsive.scss */
+  #response {
+    width: 320px;
+    margin-top: 10px;
+  }
+
+  /* line 105, ../cssprocessor/responsive.scss */
+  #response ul.chart li {
+    width: 140px;
+    max-height: 280px;
+    height: 220px;
+    overflow: auto;
+  }
+
+  /* line 106, ../cssprocessor/responsive.scss */
+  #response ul.chart li p small {
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /* line 4, ../cssprocessor/responsive.scss */
+  header {
+    height: 160px;
+    text-align: center;
+  }
+  /* line 8, ../cssprocessor/responsive.scss */
+  header .brand {
+    padding-top: 8px;
+  }
+  /* line 12, ../cssprocessor/responsive.scss */
+  header .action {
+    padding-top: 10px;
+  }
+
+  /* line 22, ../cssprocessor/responsive.scss */
+  #brand {
+    text-align: center;
+  }
+
+  /* line 27, ../cssprocessor/responsive.scss */
+  footer {
+    text-align: center;
+  }
+  /* line 30, ../cssprocessor/responsive.scss */
+  footer ul {
+    display: none;
+  }
+
+  /* line 35, ../cssprocessor/responsive.scss */
+  .button-group .btn {
+    width: 100%;
+  }
+
+  /* line 39, ../cssprocessor/responsive.scss */
+  #charts {
+    text-align: center;
+  }
+  /* line 42, ../cssprocessor/responsive.scss */
+  #charts .options {
+    padding-bottom: 15px;
+  }
+
+  /* line 47, ../cssprocessor/responsive.scss */
+  #term {
+    width: 220px;
+  }
+
+  /* line 51, ../cssprocessor/responsive.scss */
+  #setting {
+    height: 190px;
+  }
+  /* line 54, ../cssprocessor/responsive.scss */
+  #setting p {
+    padding-bottom: 10px;
+  }
+  /* line 58, ../cssprocessor/responsive.scss */
+  #setting select.dropdown {
+    width: 240px;
+  }
+
+  /* line 63, ../cssprocessor/responsive.scss */
+  #response {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 67, ../cssprocessor/responsive.scss */
+  #response ul.chart {
+    float: left;
+    padding: 10px 10px 0;
+  }
+  /* line 71, ../cssprocessor/responsive.scss */
+  #response ul.chart li {
+    float: none;
+    text-align: center;
+  }
+  /* line 75, ../cssprocessor/responsive.scss */
+  #response ul.chart li p {
+    line-height: 15px;
+  }
+  /* line 80, ../cssprocessor/responsive.scss */
+  #response ul.chart .label {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  /* line 85, ../cssprocessor/responsive.scss */
+  #response ul.lists {
+    margin-top: -17px;
+  }
+  /* line 87, ../cssprocessor/responsive.scss */
+  #response #info {
+    text-align: center;
+  }
+
+  /* line 114, ../cssprocessor/responsive.scss */
+  header select {
+    width: 280px;
+  }
+
+  /* line 115, ../cssprocessor/responsive.scss */
+  #response {
+    width: 480px;
+    margin-top: 10px;
+  }
+
+  /* line 116, ../cssprocessor/responsive.scss */
+  #response ul.chart li {
+    width: 220px;
+    height: 280px;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 121, ../cssprocessor/responsive.scss */
+  #chart .thumbnail {
+    height: 140px;
+  }
+}
+@media (min-width: 979px) {
+  /* line 126, ../cssprocessor/responsive.scss */
+  #chart .thumbnail {
+    height: 170px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 130, ../cssprocessor/responsive.scss */
+  #chart .thumbnail {
+    height: 170px;
+  }
+}

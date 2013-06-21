@@ -1,0 +1,398 @@
+@import url(foundation.min.css);
+@import url(icons_general.css);
+@import url(icons_social.css);
+/* line 14, ../cssprocessor/styles.scss */
+body {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  background: url(../img/pattern/p4.png) repeat fixed #515151;
+}
+
+/* line 20, ../cssprocessor/styles.scss */
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 18, ../cssprocessor/_mixins.scss */
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #999999;
+  font-size: 13px;
+}
+
+/* line 23, ../cssprocessor/_mixins.scss */
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #999999;
+  font-size: 13px;
+}
+
+/* line 28, ../cssprocessor/_mixins.scss */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #999999;
+  font-size: 13px;
+}
+
+/* line 28, ../cssprocessor/styles.scss */
+nav {
+  background: #222222;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+/* line 35, ../cssprocessor/styles.scss */
+nav ul {
+  display: inline;
+  height: 30px;
+  line-height: 30px;
+  list-style: none;
+}
+/* line 42, ../cssprocessor/styles.scss */
+nav ul li {
+  float: left;
+}
+/* line 46, ../cssprocessor/styles.scss */
+nav ul li a {
+  color: #7f7f7f;
+  display: block;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+}
+/* line 54, ../cssprocessor/styles.scss */
+nav ul li .divider {
+  background: black;
+  -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.1);
+  height: 100%;
+  margin-right: 1px;
+  width: 1px;
+}
+/* line 67, ../cssprocessor/styles.scss */
+nav ul.navigation {
+  float: left;
+}
+/* line 71, ../cssprocessor/styles.scss */
+nav ul.navigation li a {
+  font-size: 14px;
+  padding: 0 15px;
+}
+/* line 76, ../cssprocessor/styles.scss */
+nav ul.navigation li:hover {
+  background: #000;
+}
+/* line 79, ../cssprocessor/styles.scss */
+nav ul.navigation li:hover a {
+  color: #FFF;
+}
+/* line 85, ../cssprocessor/styles.scss */
+nav ul.navigation li.active a {
+  color: #FFF;
+}
+/* line 91, ../cssprocessor/styles.scss */
+nav ul.social {
+  float: right;
+}
+/* line 94, ../cssprocessor/styles.scss */
+nav ul.social li {
+  padding: 0 10px;
+}
+/* line 98, ../cssprocessor/styles.scss */
+nav ul.social li.twitter {
+  padding-top: 4px;
+}
+
+/* line 109, ../cssprocessor/styles.scss */
+header {
+  width: 100%;
+  background-color: #F2F2F2;
+  border: 1px solid #cccccc;
+  height: 70px;
+}
+/* line 119, ../cssprocessor/styles.scss */
+header .brand h1 {
+  text-transform: uppercase;
+}
+/* line 127, ../cssprocessor/styles.scss */
+header .action .setting {
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+}
+/* line 132, ../cssprocessor/styles.scss */
+header .action .setting a {
+  font-size: 16px;
+  padding: 8px 13px 6px;
+}
+/* line 136, ../cssprocessor/styles.scss */
+header .action .setting a:hover {
+  color: #EA2117;
+}
+/* line 143, ../cssprocessor/styles.scss */
+header select {
+  width: 360px;
+}
+
+/* line 151, ../cssprocessor/styles.scss */
+#container, #setting {
+  padding: 0 20px;
+  background-color: #FFF;
+}
+
+/* line 157, ../cssprocessor/styles.scss */
+#content {
+  padding-top: 10px;
+  padding-bottom: 80px;
+  min-height: 480px;
+}
+/* line 162, ../cssprocessor/styles.scss */
+#content .page-title {
+  border-bottom: 1px solid #c7c7c7;
+}
+/* line 165, ../cssprocessor/styles.scss */
+#content .page-title h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #444;
+}
+/* line 172, ../cssprocessor/styles.scss */
+#content ul {
+  list-style: none;
+}
+
+/* line 178, ../cssprocessor/styles.scss */
+#setting {
+  background-color: #252525;
+  border-left: 1px solid #252525;
+  border-right: 2px solid #252525;
+  height: 120px;
+  text-align: center;
+}
+
+/* line 189, ../cssprocessor/styles.scss */
+#loading {
+  margin-top: 10px;
+  display: none;
+}
+/* line 193, ../cssprocessor/styles.scss */
+#loading .load {
+  background: url("../img/loading.gif") no-repeat top center;
+  width: 50px;
+  height: 50px;
+  margin: 5px auto 0;
+}
+
+/* line 203, ../cssprocessor/styles.scss */
+#response {
+  margin-top: 40px;
+}
+/* line 206, ../cssprocessor/styles.scss */
+#response p {
+  margin: 0;
+}
+
+/* line 213, ../cssprocessor/styles.scss */
+#regular {
+  margin-top: 40px;
+}
+/* line 216, ../cssprocessor/styles.scss */
+#regular h6 {
+  color: #545454;
+}
+/* line 220, ../cssprocessor/styles.scss */
+#regular .rank {
+  color: #464b4d;
+  font-size: 16px;
+  padding-left: 10px;
+}
+/* line 226, ../cssprocessor/styles.scss */
+#regular .image {
+  width: 80px;
+}
+/* line 229, ../cssprocessor/styles.scss */
+#regular .image .thumbnail {
+  background-color: #B1ABAB;
+}
+/* line 232, ../cssprocessor/styles.scss */
+#regular .image .thumbnail:hover {
+  background-color: #f5f5f5;
+}
+/* line 238, ../cssprocessor/styles.scss */
+#regular .title {
+  color: #222;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 14px;
+  padding-top: 6px;
+  padding-bottom: 2px;
+}
+/* line 246, ../cssprocessor/styles.scss */
+#regular .title small {
+  color: #535353;
+  font-size: 12px;
+  font-weight: normal;
+}
+/* line 252, ../cssprocessor/styles.scss */
+#regular .title a {
+  color: #000;
+}
+/* line 258, ../cssprocessor/styles.scss */
+#regular .artist {
+  color: #535353;
+  font-size: 13px;
+}
+/* line 263, ../cssprocessor/styles.scss */
+#regular .label {
+  font-size: 11px;
+  background-color: #8a8686;
+}
+
+/* line 274, ../cssprocessor/styles.scss */
+footer .content {
+  background-color: #FFF;
+  border-top: 1px solid #DCDCDC;
+  padding: 10px 0;
+  height: 60px;
+}
+/* line 281, ../cssprocessor/styles.scss */
+footer p, footer a {
+  color: #343434;
+  font-size: 13px;
+}
+/* line 286, ../cssprocessor/styles.scss */
+footer a:hover {
+  color: #000;
+}
+/* line 290, ../cssprocessor/styles.scss */
+footer ul.link-list {
+  padding-top: 4px;
+}
+/* line 293, ../cssprocessor/styles.scss */
+footer ul.link-list a {
+  color: #999;
+  font-size: 22px;
+}
+/* line 298, ../cssprocessor/styles.scss */
+footer ul.link-list a.twitter:hover {
+  color: #08ADE8;
+}
+/* line 302, ../cssprocessor/styles.scss */
+footer ul.link-list a.mail:hover {
+  color: #790400;
+}
+
+/* line 312, ../cssprocessor/styles.scss */
+select,
+input[type="text"] {
+  display: inline-block;
+  height: 34px;
+  margin-bottom: 9px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #555555;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  width: 180px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+
+/* line 327, ../cssprocessor/styles.scss */
+.btn {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  width: auto;
+  background: #E9E9E9;
+  border: 1px solid #c3c3c3;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 10px 20px 11px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  -moz-transition: background-color 0.15s ease-in-out;
+  -o-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+
+/* line 346, ../cssprocessor/styles.scss */
+.thumbnail {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) false;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) false;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) false;
+  cursor: pointer;
+}
+/* line 354, ../cssprocessor/styles.scss */
+.thumbnail:hover {
+  -webkit-box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
+  -moz-box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
+  box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
+}
+
+/* line 363, ../cssprocessor/styles.scss */
+table.table {
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* line 372, ../cssprocessor/styles.scss */
+table.table td {
+  padding: 4px 5px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: middle;
+  border-top: 1px solid #dddddd;
+}
+/* line 381, ../cssprocessor/styles.scss */
+table.table tbody tr:nth-child(odd) td {
+  background-color: #D5D5D5;
+}
+/* line 385, ../cssprocessor/styles.scss */
+table.table tbody tr:nth-child(even) td {
+  background-color: #E1E1E1;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+/* line 396, ../cssprocessor/styles.scss */
+.alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  color: #c09853;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #572221;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  text-align: center;
+}

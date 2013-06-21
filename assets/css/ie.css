@@ -1,0 +1,302 @@
+/* general icons for IE7 */
+/* line 4, ../cssprocessor/ie.scss */
+[class*="picon-"] {
+  font-family: "SocialFoundicons", "GeneralFoundicons";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-thumb-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-thumb-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-rss {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-facebook {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-twitter {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-pinterest {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-linkedin {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-google-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-youtube {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-tumblr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-wordpress {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-settings {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-heart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-star {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-minus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-checkmark {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-remove {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-mail {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-calendar {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-page {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-tools {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-globe {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-home {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-quote {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-people {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-monitor {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-laptop {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-phone {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-cloud {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-error {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-right-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-left-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-up-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-down-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-trash {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-add-doc {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-edit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-lock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-unlock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-paper-clip {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01e;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-video {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01f;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-photo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf020;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-graph {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf021;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-idea {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf022;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-mic {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf023;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-cart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf024;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-address-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf025;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-compass {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf026;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-flag {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf027;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-location {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf028;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-clock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf029;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-folder {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02a;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-inbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02b;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-website {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02c;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-smiley {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02d;");
+}
+
+/* line 16, ../cssprocessor/_settings.scss */
+.picon-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
+}

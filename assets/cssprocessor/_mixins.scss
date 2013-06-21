@@ -1,0 +1,33 @@
+
+@mixin respond($media) {
+    @if $media == smartphone {
+      	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { @content; }
+    } @else if $media == smarttablet {
+      	@media only screen and (max-device-width : 767px) { @content; }
+    } @else if $media == tablet {
+      	@media only screen and (min-device-width : 768px) and (max-device-width : 979px) { @content; }
+    } @else if $media == smallscreen {
+      	@media only screen and (min-device-width : 980px) and (max-device-width : 1199px) { @content; }
+    } @else if $media == largescreen {
+      	@media only screen and (min-width : 1200px) { @content; } 
+    }
+}
+
+@mixin placeholder($color, $fontsize : 13px){
+    input:-moz-placeholder,
+    textarea:-moz-placeholder {
+        color: $color;
+        font-size: $fontsize;
+    }
+    input:-ms-input-placeholder,
+    textarea:-ms-input-placeholder {
+        color: $color;
+        font-size: $fontsize;
+    }
+    input::-webkit-input-placeholder,
+    textarea::-webkit-input-placeholder {
+        color: $color;
+        font-size: $fontsize;
+    }
+}
+

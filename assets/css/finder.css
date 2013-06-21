@@ -1,0 +1,44 @@
+/* line 3, ../cssprocessor/finder.scss */
+#term {
+  width: 320px;
+}
+
+/* line 10, ../cssprocessor/finder.scss */
+#setting .content {
+  padding-top: 20px;
+}
+/* line 14, ../cssprocessor/finder.scss */
+#setting p {
+  color: #EBEBEB;
+  font-weight: bold;
+}
+/* line 19, ../cssprocessor/finder.scss */
+#setting .dropdown {
+  width: 280px;
+}
+
+/* line 24, ../cssprocessor/finder.scss */
+#response .list {
+  text-align: center;
+  padding-bottom: 20px;
+}
+/* line 28, ../cssprocessor/finder.scss */
+#response .list .title {
+  color: #222;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  padding-top: 5px;
+}
+/* line 35, ../cssprocessor/finder.scss */
+#response .list .title small {
+  color: #535353;
+  font-size: 12px;
+  font-weight: normal;
+}
+/* line 42, ../cssprocessor/finder.scss */
+#response .list .artist {
+  color: #535353;
+  font-size: 13px;
+  padding-top: 3px;
+}

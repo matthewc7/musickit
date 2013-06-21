@@ -1,0 +1,82 @@
+@import "compass/css3";
+
+#upc{
+	width: 320px;
+}
+
+
+#results{
+	font-size: 13px;
+	color: #535353;
+	padding-top: 12px;
+	font-style: italic;
+}
+
+#info{
+	margin-bottom: 40px;
+
+	.upc{
+		font-size: 16px; 
+		font-weight: bold;
+		color: #535353;
+	}
+
+	.title{
+		color: #222;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 14px;
+		padding-top: 1px;
+
+		small{
+			color: #535353;
+			font-size: 12px;
+			font-weight: normal;
+		}
+	}
+
+	.artist{
+		color: #535353;
+		font-size: 13px;
+		padding-top: 3px;
+	}	
+}
+
+ul.lists{
+
+	li{
+		padding: 4px 6px;
+		border-bottom: 1px solid #dddddd;
+		font-size: 14px;
+		@include box-shadow(3px 3px 8px rgba(#000, .5));
+
+		img{
+			margin-right: 5px;
+		}
+
+		p{
+			font-size: 12px;
+		}
+
+		a{
+			color: #515151;
+
+			&:hover{
+				color: #5068a4;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	li.available{
+		background-color: #dff0d8;
+	}
+
+	li.unavailable{
+		background-color: #f2dede;
+	}
+}
+
+.panel{
+	@include box-shadow(4px 4px 8px rgba(#000, .5));
+}
